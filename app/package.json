@@ -1,0 +1,25 @@
+{
+  "name": "mean16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "express": "^4.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rayne58/MEAN16-MEAN-Stack-Ubuntu16-Vagrant-Box.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rayne58/MEAN16-MEAN-Stack-Ubuntu16-Vagrant-Box/issues"
+  },
+  "homepage": "https://github.com/Rayne58/MEAN16-MEAN-Stack-Ubuntu16-Vagrant-Box#readme"
+}
