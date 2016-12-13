@@ -6,7 +6,7 @@ For installing Vagrant see https://www.vagrantup.com/docs/installation/index.htm
 
 For Vagrant info/docs see http://www.vagrantup.com/ 
 
-To get started clone the repo
+###To get started clone the repo, or download the Vagrantfile and bootstrap.sh
 
 ```Shell
 vagrant up
