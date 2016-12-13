@@ -9,33 +9,41 @@ To get started clone the repo
 
 ```Shell
 vagrant up
+```
 
 #### SSH into the VM
 ```Shell
 vagrant ssh
+```
 
 #### Navigate to the shared folder
 ```Shell
 cd /vagrant
+```
 
 #### Clean VM Shutdown
 ```Shell
 vagrant halt
+```
 
 #### Destroy the VM
 ```Shell
 vagrant destroy
+```
 
 ## MongoDB Commands
 =========
 #### Start MongoDB
 ```Shell
 sudo service mongodb start
+```
 
 #### Stop MongoDB
 ```Shell
 sudo service mongodb stop
+```
 
 #### Restart MongoDB
 ```Shell
 sudo service mongodb restart
+```
