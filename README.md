@@ -1,6 +1,7 @@
 #MEAN16 - MEAN Stack Ubuntu16 Vagrant Box
 =========
 A preconfigured VM set up for MEAN stack development (or whatever else you have in mind)
+
 For installing Vagrant see https://www.vagrantup.com/docs/installation/index.html
 
 For Vagrant info/docs see http://www.vagrantup.com/ 
