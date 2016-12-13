@@ -1,5 +1,5 @@
 #MEAN16 - MEAN Stack Ubuntu16 Vagrant Box
-=========
+====
 A preconfigured VM set up for MEAN stack development (or whatever else you have in mind)
 
 For installing Vagrant see https://www.vagrantup.com/docs/installation/index.html
@@ -8,6 +8,7 @@ For Vagrant info/docs see http://www.vagrantup.com/
 
 ###To get started clone the repo, or download the Vagrantfile and bootstrap.sh
 
+#### Spin up VM
 ```Shell
 vagrant up
 ```
@@ -33,7 +34,7 @@ vagrant destroy
 ```
 
 ## MongoDB Commands
-=========
+===
 #### Start MongoDB
 ```Shell
 sudo service mongodb start
