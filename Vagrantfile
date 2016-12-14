@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
     # 2GB ram
     v.memory = 2048
     v.customize ["setextradata", :id, 
-                  "VBoxInternal2/SharedFoldersEnableSymlinksCreate//vagrant","1"]
+                  "VBoxInternal2/SharedFoldersEnableSymlinksCreate/vagrant","1"]
 
   end
 
