@@ -10,7 +10,6 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder '.', '/vagrant'
 
   config.vm.provider "virtualbox" do |v|
-    v.name = "MEAN16"
     v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
     # max 75% CPU cap
     v.customize ["modifyvm", :id, "--cpuexecutioncap", "75"]
@@ -32,7 +31,9 @@ Vagrant.configure("2") do |config|
         :version => '7.3.0'
       },
       :mongodb => {
-        :port => '27017'
+        :port => '27017',
+        :dbpath  => "/var/lib/mongodb",
+        :logpath => "/var/log/mongodb"
       }
     }
   end
