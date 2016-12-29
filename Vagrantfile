@@ -22,6 +22,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision :chef_solo do |chef|
     chef.add_recipe "nodejs"
+    chef.add_recipe "mongodb::default"
     chef.json = {
       :nodejs => {
         :install_method => 'binary',
@@ -29,6 +30,9 @@ Vagrant.configure("2") do |config|
           :checksum => 'd4eb161e4715e11bbef816a6c577974271e2bddae9cf008744627676ff00036a'
         },
         :version => '7.3.0'
+      },
+      :mongodb => {
+        :port => '27017'
       }
     }
   end
