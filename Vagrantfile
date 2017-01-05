@@ -23,19 +23,18 @@ Vagrant.configure("2") do |config|
     chef.add_recipe "nodejs"
     chef.add_recipe "mongodb::default"
     chef.json = {
-      :nodejs => {
-        :install_method => 'binary',
-        :binary => {
-          :checksum => 'd4eb161e4715e11bbef816a6c577974271e2bddae9cf008744627676ff00036a'
+      "nodejs" => {
+        "install_method" => "binary",
+        "binary" => {
+          "checksum" => "d4eb161e4715e11bbef816a6c577974271e2bddae9cf008744627676ff00036a"
         },
-        :version => '7.3.0'
+        "version" => "7.3.0"
       },
-      :mongodb => {
-        :port => '27017',
-        :dbpath  => "/var/lib/mongodb",
-        :logpath => "/var/log/mongodb"
-      }
+      "mongodb" => {
+        "port" => "27017",
+        "dbpath"  => "/var/lib/mongodb",
+        "logpath" => "/var/log/mongodb"
+      },
     }
   end
-
 end
